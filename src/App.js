@@ -2,10 +2,7 @@ import React, { useState ,useEffect} from 'react';
 import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Heading from '@tiptap/extension-heading';
-import { getOutline } from './openaiService.js';
-
-
-
+import { getOutline } from './geminiService.js';
 
 // LockedHeading extension to make headings non-editable
 const LockedHeading = Heading.extend({
